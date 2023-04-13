@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    name属性的值可以随便写,别名
+    path属性的值表示共享的具体位置，设置空就表示将整个SD卡进行共享
+     -->
+    <!--<paths>-->
+        <external-path
+            name="taodd"
+            path="."/>
+        <!--<external-path path="Android/data/com.tianci.xueshengzhuan/"        name="files_root" />-->
+
+    <!--</paths>-->
+    <cache-path path="." name="apk1"/>
+
+    <external-path path="." name="external_storage_root"/>
+    <external-path path="" name="Download"/>
+</resources>

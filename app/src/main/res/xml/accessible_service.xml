@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagReportViewIds|flagDefault|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews|flagRequestEnhancedWebAccessibility"
+    android:canRetrieveWindowContent="true"
+    android:packageNames="com.tencent.wework"
+    android:notificationTimeout="10000"
+    android:description="@string/app_name"
+    android:canPerformGestures="true"
+    />
+    <!--android:packageNames="com.tianci.gen_signature"-->
+<!--    android:accessibilityFeedbackType="feedbackGeneric"-->
